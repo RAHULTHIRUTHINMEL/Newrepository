@@ -1,0 +1,7 @@
+from helper import *
+
+
+
+if __name__=='__main__':
+    #print(get_files_path())
+    find_word_in_files(str_to_find='jim')
