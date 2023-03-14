@@ -7,7 +7,7 @@ def main():
     
     #perform a amapping and filter function on a list
     evenSquared = list(
-        map(lambda t : t **2, filter(lambda e : e >4 and e< 16, evens)))  #appied mapping,lambda and filter together
+        map(lambda t : t **2, filter(lambda t : t >4 and t< 16, evens)))  #appied mapping,lambda and filter together
     print(evenSquared)
 
 
