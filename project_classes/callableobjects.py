@@ -8,7 +8,7 @@ class Book:
     def __str__(self) -> str:
         return f"{self.title} by {self.author} , costs {self.price}"
     
-    def __call__(self,title,author,pages,price):
+    def __call__(self,title,author,pages,price):   #call function to make an object callable
         self.title = title
         self.author = author
         self.pages = pages

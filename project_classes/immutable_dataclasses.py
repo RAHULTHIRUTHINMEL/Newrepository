@@ -15,5 +15,5 @@ obj = ImmutableClass()
 print(obj.value1)
 
 obj.value1 = "another value"
-print(obj.value1)
-obj.somefunc(20)
+print(obj.value1)  #frozeninstance error
+obj.somefunc(20)   #frozen instance error

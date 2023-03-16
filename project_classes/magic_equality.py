@@ -8,7 +8,6 @@ class Book:
     def __eq__(self, value) -> bool:
         if not isinstance(value, Book):
             raise ValueError("Cannot compare book to a non book")
-
         return(self.title == value.title and 
         self.author == value.author and
         self.price == value.price)
@@ -16,13 +15,11 @@ class Book:
     def __ge__(self, value):
         if not isinstance(value, Book):
             raise ValueError("Cannot compare book to a non book")
-        
         return(self.price >= value.price)
     
     def __lt__(self, value):
         if not isinstance(value, Book):
             raise ValueError("Cannot compare book to a non book")
-        
         return(self.price < value.price)
 
 

@@ -1,7 +1,7 @@
 class Book:
     #class variable
     Book_Types = ("Hardcover", "Paperback", "Ebook")  #classattribute
-
+    # doubbleunderscore properties are hidden from other classes
     __booklist = None
 
 

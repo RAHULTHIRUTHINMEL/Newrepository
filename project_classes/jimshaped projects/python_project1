@@ -1,0 +1,16 @@
+from helper import *
+import sys
+
+
+
+if __name__=='__main__':
+    #print(get_files_path())
+    #print("\033[93mThis is red!\033[033]")  Ansi colors
+    #print(sys.argv)
+    try :
+        str_to_find = sys.argv[1]
+        find_word_in_files(str_to_find=str_to_find)
+
+    except IndexError:
+        print("please provide an argument in the execution!\n"
+              "Example:  python main.py foo")
